@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="styleku.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+
+<body id="home">
+    <center>
+        <div class="w3-container">
+            <br>
+            <h2 textcolor="white">Login Form</h2>
+        </div>
+    </center>
+    <form class="w3-container">
+        <center>
+            <table width="800" height="100" border="0" collspacing="0">
+                <tr>
+                    <td>
+                        <img src="image/header.jpg" alt="">
+                    </td>
+                    <tr>
+                        <td>
+                            <ul>
+                            </ul>
+                        </td>
+                    </tr>
+                    <td>
+                        <br>
+                        <center>
+                            <table width="500" height="50" border="0" class="tabel">
+
+                                <tr>
+                                    <td> Nama: </td>
+                                    <td><input type="textfield" class="w3-input" name="nama" id="nama"></td>
+                                </tr>
+                                <tr>
+                                    <td> Alamat Email:</td>
+                                    <td><input type="textfield" class="w3-input name=" email " id="email "></td>
+                            </tr>
+                            <tr>
+                                <td> komentar</td>
+                                <td><input type="password " class="w3-input name="komentar" id="komentar"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="submit" id="checkbox"> ingat saya
+                                    </td>
+                                    <center>
+                                        <tr>
+                                            <td>
+                                                <input type="submit" class="submit" value="login">
+                                            </td>
+                                        </tr>
+                                    </center>
+
+                            </table>
+                        </center>
+                        <tr>
+                            <td><img src="image/footer.jpg" alt=""></td>
+                        </tr>
+                    </td>
+            </table>
+    </form>
+    <p> Design By: Riko Rendy Lahimade</p>
+</body>
